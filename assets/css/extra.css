@@ -1,0 +1,118 @@
+
+@import "https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&amp;display=swap";@font-face{font-family:gilroybold;src:url(../fonts/GilroyBold.html);src:url(../fonts/GilroyBold.html) format("embedded-opentype"),url(../fonts/GilroyBold-2.html) format("woff2"),url(../fonts/GilroyBold-3.html) format("woff"),url(../fonts/GilroyBold-4.html) format("truetype"),url(../fonts/GilroyBold.svg#GilroyBold) format("svg")}body{font-family:karla,sans-serif;font-weight:400;font-style:normal;overflow-x:hidden;color:#81a3bb}
+.bnr-btn
+{
+    
+    margin: auto;
+    
+    
+}
+.bnr-cnt-us {
+    border-radius: 6px;
+    background-color: #0c59db;
+    border: none;
+    color: #FFFFFF;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  
+  .bnr-cnt-us span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-family: karla,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+
+
+  }
+  
+  .bnr-cnt-us span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .bnr-cnt-us:hover span {
+    padding-right: 25px;
+  }
+  
+  .bnr-cnt-us:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  /*----------------------------------------*/
+
+
+
+  .box-btn
+{
+    
+    
+
+
+    
+}
+.box-cnt-us {
+    border-radius: 6px;
+    background-color: #0c59db;
+    border: none;
+    color: #FFFFFF;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  
+  .box-cnt-us span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-family: karla,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+
+
+  }
+  
+  .box-cnt-us span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .box-cnt-us:hover span {
+    padding-right: 25px;
+  }
+  
+  .box-cnt-us:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+ 
