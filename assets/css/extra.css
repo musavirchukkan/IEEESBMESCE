@@ -100,7 +100,7 @@
   }
 
 
-  .offer {
+  span.offer {
     font-family: gilroybold;
       font-weight: 200;
       color: #002249;
@@ -108,7 +108,7 @@
       font-size: 16px;
   }
   
-  .lastdate {
+ span.lastdate {
     font-family: gilroybold;
       font-style: italic;
       color: #002249;
@@ -116,7 +116,7 @@
       font-size: 16px;
   }
 
-.ieeesb {
+span.ieeesb {
   font-family: gilroybold;
     font-weight: 400;
     color: #002249;
