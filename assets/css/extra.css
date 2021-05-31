@@ -100,7 +100,7 @@
   }
 
 
-  #offer {
+  .offer {
     font-family: gilroybold;
       font-weight: 200;
       color: #002249;
@@ -108,7 +108,7 @@
       font-size: 16px;
   }
   
-  #lastdate {
+  .lastdate {
     font-family: gilroybold;
       font-style: italic;
       color: #002249;
