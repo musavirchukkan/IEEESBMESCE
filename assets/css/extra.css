@@ -116,9 +116,21 @@
 }
 
 
+.design {
+  font-family: gilroybold;
+    font-weight: 200;
+    color: #002249;
+    margin: 0;
+    font-size: 16px;
+}
 
-
-
+.deadline {
+  font-family: gilroybold;
+    font-style: italic;
+    color: #002249;
+    margin: 0;
+    font-size: 16px;
+}
 
 
  
