@@ -100,6 +100,22 @@
   }
 
 
+  .offer {
+    font-family: gilroybold;
+      font-weight: 200;
+      color: #002249;
+      margin: 0;
+      font-size: 16px;
+  }
+  
+  .lastdate {
+    font-family: gilroybold;
+      font-style: italic;
+      color: #002249;
+      margin: 0;
+      font-size: 16px;
+  }
+
 .ieeesb {
   font-family: gilroybold;
     font-weight: 400;
@@ -109,21 +125,7 @@
 }
 
 
-.design {
-  font-family: gilroybold;
-    font-weight: 200;
-    color: #002249;
-    margin: 0;
-    font-size: 16px;
-}
 
-.deadline {
-  font-family: gilroybold;
-    font-style: italic;
-    color: #002249;
-    margin: 0;
-    font-size: 16px;
-}
 
 
 
