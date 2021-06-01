@@ -82,10 +82,11 @@
 <div class="col-lg-6">
 <div class="header-right-social text-center text-sm-right">
 <ul>
+  <li><a href="https://www.youtube.com/channel/UCOFCN8GtjeHg4jGJ_EONYOw"> <i class="fab fa-youtube" style="color:white"></i></a></li>
 <li><a href="https://m.facebook.com/ieeesbmesce/"><i class="fab fa-facebook-f"></i></a></li>
 <li><a href="https://www.instagram.com/ieeesbmesce/"><i class="fab fa-instagram"></i></a></li>
 
-<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+<li><a href="https://www.linkedin.com/company/ieeesbmesce/mycompany/"><i class="fab fa-linkedin-in"></i></a></li>
 
 </ul>
 </div>
@@ -170,6 +171,96 @@
 <div class="blog-grid-area pt-90 pb-120">
     <div class="container">
     <div class="row justify-content-center">
+
+
+      <!------------>
+      <div class="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+        <div class="single-portfolio mt-30">
+          <!--<div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="assets/images/events/cs/VI Flutter.jpeg" style="width:100%">
+              
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="assets/images/events/cs/VI Full Stack.jpeg" style="width:100%">
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="assets/images/events/cs/VI Hacking.jpeg" style="width:100%">
+              
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div> --->
+          <div class="portfolio-thumb">
+            <img src="assets/images/events/cs/VI Flutter.jpeg" alt="">
+            </div>
+          <!-------content------>
+<div class="portfolio-content">
+  <span>CS SBC MESCE</span>
+  <br>
+  <a href="case-details.html"><h3 class="title">Virtual Internship </h3></a>
+  <br>
+  <br>
+  <p>"It is never too late to be what you might have been." 
+     - George Eliot.
+ 
+     <br>
+     <br>
+
+     
+     <span class="ieeesb"> IEEE CS SBC MESCE </span> 
+      in collaboration with <span class="ieeesb">PACE LAB</span> is excited to
+      present a one week internship program to level up the undergrad students in  the following domains🤩:
+      
+        
+     <br><br>
+     <span class="ieeesb"> 
+      📌 ETHICAL HACKING <br>
+      📌 FULL STACK <br>
+      📌 GOOGLE FLUTTER <br>
+     </span>  <br> 
+     
+       
+     
+
+      
+      <br>
+      <span class="ieeesb"> Date : 9th - 13th June, 2021</span>
+      <br>
+      🪙 IEEE MEMBERS : ₹1,590/- <br>
+      🪙 NON IEEE MEMBERS: ₹1,890/- <br>
+      <br>
+      </p>
+    
+      <!--------if new tab for link required add target="_blank" rel="noopener noreferrer" --------->
+      <div class="box-btn" >
+
+        <a  href="https://docs.google.com/forms/d/e/1FAIpQLSd5M_eHX1HP24mXUsq0NcsCrVQqpcmKeWyBFYm8DViKmK34oQ/viewform" target="_blank" rel="noopener noreferrer">
+          <button class="box-cnt-us" type="button"><span> Register</span></button>
+        </a>
+      </div>
+      
+    
+  
+</div>
+
+       
+</div></div>
+
+
+
 
 
       <!------------>
@@ -452,6 +543,36 @@
       navbar.classList.remove("sticky");
     }
   }
+
+
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active1", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active1";
+}
+  
+
   </script>
 
 
@@ -494,7 +615,12 @@
   <script src="assets/js/waypoints.min.js" type="c378209aeb18056b256d3cdb-text/javascript"></script>
   
   <script src="assets/js/main.js" type="c378209aeb18056b256d3cdb-text/javascript"></script>
-  <script src="../../../../../ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="c378209aeb18056b256d3cdb-|49" defer=""></script></body>
+  <script src="../../../../../ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="c378209aeb18056b256d3cdb-|49" defer=""></script>
+  <!-------->
+  
+  
+
+    </body>
   
   <!-- index.html  10:29:58 GMT -->
   </html>
