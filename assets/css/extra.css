@@ -104,7 +104,7 @@ body {
 }
 /*-----------------------*/
 
-.box-cnt-ss {
+.portfolio-content .box-btn .box-cnt-ss {
   border-radius: 6px;
   background-color: #0c59db;
   border: none;
@@ -117,7 +117,7 @@ body {
   margin-right: 15px;
 }
 
-.box-cnt-ss span {
+.portfolio-content .box-btn .box-cnt-ss span {
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -128,7 +128,7 @@ body {
   font-style: normal;
 }
 
-.box-cnt-ss span:after {
+.portfolio-content .box-btn .box-cnt-ss span:after {
   content: "\00bb";
   position: absolute;
   opacity: 0;
@@ -137,11 +137,11 @@ body {
   transition: 0.5s;
 }
 
-.box-cnt-ss:hover span {
+.portfolio-content .box-btn .box-cnt-ss:hover span {
   padding-right: 25px;
 }
 
-.box-cnt-ss:hover span:after {
+.portfolio-content .box-btn .box-cnt-ss:hover span:after {
   opacity: 1;
   right: 0;
 }
