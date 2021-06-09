@@ -208,9 +208,13 @@ body {
   margin: auto;
 }
 
-.linear-gradient {
+.portfolio-content .linear-gradient {
   font-size: 16px;
   background: -webkit-linear-gradient(purple, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.cursor {
+  cursor: pointer;
 }
