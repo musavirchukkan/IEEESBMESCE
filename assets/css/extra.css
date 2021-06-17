@@ -16,7 +16,7 @@ body {
   color: #81a3bb;
 }
 .bnr-btn {
-  margin: auto;
+  margin: auto 0 auto 0;
 }
 .bnr-cnt-us {
   border-radius: 6px;
