@@ -190,6 +190,50 @@ body {
   right: 0;
 }
 
+/*----------------------*/
+
+.portfolio-content .box-btn .box-cnt-xxs {
+  border-radius: 6px;
+  background-color: #0c59db;
+  border: none;
+  color: #ffffff;
+  height: 40px;
+  width: 170px;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.portfolio-content .box-btn .box-cnt-xxs span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-family: karla, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.portfolio-content .box-btn .box-cnt-xxs span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.portfolio-content .box-btn .box-cnt-xxs:hover span {
+  padding-right: 25px;
+}
+
+.portfolio-content .box-btn .box-cnt-xxs:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 /*-----------------------*/
 .ieeesb {
   font-family: gilroybold;
